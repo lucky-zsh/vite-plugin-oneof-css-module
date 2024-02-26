@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["ESNext"],
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "moduleResolution": "Node",
+        "noEmitOnError": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "useDefineForClassFields": false,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "types": ["node", "fs-extra"],
+        "esModuleInterop": true,
+        "declaration": true,
+        "outDir": "./dist/types"
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "ESNext"
+        }
+    },
+    "include": ["./src", "./rollup.config.ts"],
+    "exclude": ["node_modules"]
+}

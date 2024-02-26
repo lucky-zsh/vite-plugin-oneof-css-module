@@ -1,0 +1,70 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "react",
+        "typescript",
+        "typescriptreact",
+        "json"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "react",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "markdown",
+        "json",
+        "jsonc",
+        "json5"
+    ],
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx",
+            "html",
+            "markdown",
+            "json",
+            "jsonc",
+            "json5"
+        ]
+    },
+    "files.eol": "\n",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.format.enable": true,
+    "search.exclude": {
+        "**/.git": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/dist/**": true,
+        "**/node_modules": true,
+        "**/pnpm-lock.yaml": true
+    },
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "explorer.sortOrder": "default",
+    "explorer.compactFolders": false,
+    "json.schemaDownload.enable": true,
+    "workbench.tree.indent": 16
+}
